@@ -1,21 +1,25 @@
---Readme document for *author(s)*, *email(s)*, *UCI id(s)*--
+--Readme document for Avent Chiu, chiual@uci.edu, 18046792 and Kevin Pham, kevinp7@uci.edu,  --
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */20
-- */2 Communicating with the webserver
-- */3 Populating information about the user
-- */4 Populating the search component
+- 2/2 Communicating with the webserver
+- 2/3 Populating information about the user
+- 4/4 Populating the search component
 - */5 Artist page
 - */3 Album page
 - */3 Track page
 
 
 2. How long, in hours, did it take you to complete this assignment?
-
+8
 
 
 3. What online resources did you consult when completing this assignment? (list specific URLs)
+https://angular.io/
+https://angular.io/tutorial/
+https://developer.spotify.com/documentation/web-api/
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 
 

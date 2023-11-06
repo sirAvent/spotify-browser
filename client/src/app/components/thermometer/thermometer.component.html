@@ -1,6 +1,14 @@
 <div class="progress">
-	<!--TODO: set style.background-color based on the audio feature's color and style.width via the audio feature's percent. Display feature name and percent.-->
-  <div class="progress-bar" role="progressbar">
-  	<span class="progress-bar-text">???: ???</span>
+	<!--DONE: set style.background-color based on the audio feature's color and style.width via the audio feature's percent. Display feature name and percent.-->
+  <div 
+    class="progress-bar"
+    role="progressbar"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    [style.width]="trackFeature.percentageString"
+    [style.background-color]="trackFeature.color"
+    [attr.aria-valuenow]="trackFeature.percent"
+  >
+  <span class="progress-bar-text">{{trackFeature.name}}: {{trackFeature.percentageString}}</span>
   </div>
 </div>

@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+	--bs-orange: #ff6600;
+  }
 
 body {
-	background-color: var(--bs-gray-dark);
-	color: var(--bs-light);
+	background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+	color: black;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -16,6 +19,7 @@ h2, h3 {
 
 button, .btn {
 	margin: 10px;
+	border: gray 1px solid;
 }
 
 a {

@@ -1,0 +1,22 @@
+.player {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player button {
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+
+.player span {
+    position: relative;
+    left: 5px;
+}
